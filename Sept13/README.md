@@ -1,1 +1,1 @@
-![wk2_art](/Sept13)
+![wk2_art.png](/Sept13)
