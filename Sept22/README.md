@@ -4,4 +4,4 @@ I would say the main challenge or improvement I should make would be to figure o
 
 I am generally really proud of this artwork because I really enjoyed the process. Although I what I intended to code did not turn out how I wanted it to be, it unexpectedly worked really well for me in a way I didn't think I would've been able to code. 
 
-![](Sept22/ScreenRecording.mov)
+![](Sept22/ScreenRecording_Small.mov)
