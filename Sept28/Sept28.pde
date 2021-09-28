@@ -8,7 +8,7 @@ float maxY = 0.0;
 void setup() {
   size(800, 600);
   background(255, 255, 255);
-  strings = loadStrings("/Users/ericawu/Downloads/owid-covid-data.csv");
+  strings = loadStrings("/Users/ericawu/Downloads/covid-data.csv");
   if (strings == null) {
     println("failed to load the file, stopping here");
     while (true) {
@@ -29,7 +29,7 @@ void findMaxXY() {
     singleRow = split(strings[csvRowNumber], ',');
     if (singleRow[3].equals("2021-09-20"))
     {
-      if (Float.isNaN(float(singleRow[10])) || Float.isNaN(float(singleRow[48])))
+      if (Float.isNaN(float(singleRow[10])) || Float.isNaN(float(singleRow[5])))
       {
         println("conversion to float failed; skipping row " + csvRowNumber);
       } else {
