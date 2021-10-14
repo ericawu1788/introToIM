@@ -164,6 +164,7 @@ void keyPressed() {
             num=0;
             loop();
             mode="play";
+            frameRate(20);
           }
         }
       }
