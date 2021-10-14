@@ -107,6 +107,7 @@ void setting()
   fill(bgd);
   rect(10,10,780,580);
   textSize(30);
+  fill(green);
   text("Score: "+num, 30, 50);
 }
 
