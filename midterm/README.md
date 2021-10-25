@@ -44,3 +44,10 @@ This is when you pause the game.
 
 ![Screenshot](/midterm/over.png)
 This is when the game is over
+
+
+Below is the video recording:
+https://user-images.githubusercontent.com/71425903/138770682-e7e1bfe0-893c-4aea-87aa-d26498d094ed.mov
+
+
+
