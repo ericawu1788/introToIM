@@ -31,3 +31,5 @@ Michael then responded that zooming in is complicated so I moved forward with ma
 - adjust stylistic choices - color scheme and making it more challenging as you reach a certain score by adjusting the frame rate
 
 Overall, I started with the essential components of the game, making the game at least reaching the bare minimum. After I've done that, I've then added other components to it, such as the color scheme and speed of the game. Although I have changed my project idea, I think the game still worked out really well in the end. I have also worked around the challenges I've faced, such as exploring another field from maps to snakes. Regarding deciding if I should change to Michael's suggested way, I realized I might be able to make that happen if I had known this earlier or if I have more time, but since it is already fine, I have decided to spend the time on enhancing the game itself. I've also experienced and learned about prioritizing tasks and components of the game to enhance overall user experience.
+
+![video](midterm/video.mov)
