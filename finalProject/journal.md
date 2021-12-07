@@ -1,3 +1,5 @@
+Nov. 29
+
 My final project will be a game highlighting the causes that are leading to the climate crisis and the attempt to reduce it. On the screen is the Earth. Factors that contribute to the cause of climate change will pop out at different times, and the player will need to eradicate them.
 
 
@@ -8,3 +10,7 @@ When Earth bumps into the obstacle on Processing, Processing will send a signal 
 The Arduino program will have two buttons to go up or down to switch between lanes. When one of them are pressed, Arduino tells Processing to either initiate lane-switching of going up or going down. When both of them are pressed for 3 seconds, Arduino tells Processing to initiate the get-rid-of-obstacle function.
 
 I think the most complicated part will be how the Earth interacts with the obstacle, especially when it tries to get rid of an obstacle from its collection. However, I plan to take this step by step by creating Earth as an object that moves, only adding other features one by one. 
+
+Dec. 7
+
+I started off by figuring out how to switch between lanes using Processing and Arduino because I thought that was one of the most difficult parts of the game. As I took my previous work and modified to fit onto this one, I realized it doesn't really work. As I tried it a couple of times and it still doesn't work, I have decided to chanage the up down switch to the up down buttons on the keyboard. I then worked on the Processing part without using the Arduino to isolate the problems. Using the keyboard actually worked, so I figured I can just continue to work on the game on Processing, as most of the parts are on Processing. However, later I encountered another problem, which is I am not sure how to create two objects, or obstacles as used in my game, at once and have them have different x values but moving at the same pace. I want a new obstacle to appear after about 5 seconds while the old and new one are all moving towards the Earth. I was planning to finish the mechanisms and dynamics of the game by this date, but because of the mistakes I've encountered and unsuccessful debugging and insufficient planning, I am thinking to make my game simpler or even change it. I have also taken another look at the prompt of the final project and realize that I am not too focused on the interactivity of the game, which is something I would like to change.
