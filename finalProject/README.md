@@ -3,4 +3,13 @@ With the prompt focused on interactivity, this project puts a strong focus on im
 The making of this project was very much inspired by feedback I've received. The aesthetics were inspired by a friend's suggestions of making the object a balloon with a background that suits it. The intention of changing the opacity of the balloon was to make it more realistic as the rubber of balloons get more stretched when its blown bigger, making it more translucent. The recording function was inspired by Michael's suggestion of recording what is being played. 
 
 Challenges I've faced in this project include figuring out how to record the sound. A problem I went into was that when I wanted the program the sound from the arraylist, it continues to take in values Arduino gives it. Jack then reminded me that you don't always have to take in, or listen, to the values Arduino sends. I've then manipulated what Processing does with the values it take in from Arduino - by not translating into the value that will be read for playing music. 
-One improvement that can be made is that in the play recording page, there should be buttons on screen to pause and replay the recording. Another improvement was to change up when the LED lights up, either make a new LED for the change itself or make the LED only light up when the button is pressed. I wanted to include a LED to indicate when the pitch has been changed and found it convenient to connect the LED wires to the LED of the button. I figured this is an example of where to use technology to enhance the experience, because in this case, it might actually cause confusion instead of adding on to the experience. 
+One improvement that can be made is that in the play recording page, there should be buttons on screen to pause and replay the recording. Another improvement was to change up when the LED lights up, either make a new LED for the change itself or make the LED only light up when the button is pressed. I wanted to include a LED to indicate when the pitch has been changed and found it convenient to connect the LED wires to the LED of the button. I figured this is an example of where to use technology to enhance the experience, because in this case, it might actually cause confusion instead of adding on to the experience. I've also realize most people comment about the "Shake Shack" symbol on the box. A problem with having a very obvious logo is that it might distract the objective or expectation users have towards my project. 
+
+
+![schematic](https://user-images.githubusercontent.com/71425903/146549796-f22b3dd7-2613-4ff7-aff0-44a2f90790ff.jpg)
+This is a photo of the schematic of the project.
+
+![photo](https://user-images.githubusercontent.com/71425903/146549861-c2a699f1-43de-44e7-95bc-72d56849a509.jpg)
+This is a photo of the breadboard
+
+This is a video of the Balloonotes demonstration that also shows what the project looks like.
