@@ -4,16 +4,15 @@ const int button = 6;
 
 int value = 0;
 //int pitch;
-const int flashDuration = 10; // milliseconds
+const int flashDuration = 100; // milliseconds
 unsigned long turnedLEDOnAt = 0;
 
 
 void setup() {
   Serial.begin(9600);
-
-  // Since both sides wait for each other before they send anything,
-  // someone needs to start the conversation
-  Serial.println("0");
+  
+  //Processing understands "-2" as play nothing
+  Serial.println("-2");
 
   pinMode(LEDPIN, OUTPUT);
 }
@@ -36,7 +35,8 @@ void loop() {
       // Tell Processing we're ready for another
       if(digitalRead(button)==HIGH){
       int sensorValue = analogRead(knob);
-      Serial.println(map(sensorValue, 0, 1023 ,-0.5, 7.4)); // the value doesn't matter
+      //map sensor to 0 to 7
+      Serial.println(map(sensorValue, 0, 1023, 7.4 ,-0.5));
       }
       else Serial.println("-2");
     }
